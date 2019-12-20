@@ -61,16 +61,22 @@ class TutorialHome extends React.Component {
                 words have highest attribution to the model output.  Find the tutorial <a href="IMDB_TorchText_Interpret">here </a>.
 
                 <h4>Interpreting vision with CIFAR:</h4>
-                This tutorial demonstrates how to use Captum for interpreting vision focused models.
+                This tutorial demonstrates how to use Captum for interpreting vision-focused models.
                 First we create and train (or use a pre-trained) a simple CNN model on the CIFAR dataset.
                 We then interpret the output of an example with a series of overlays using Integrated Gradients and DeepLIFT.
                 Find the tutorial <a href="CIFAR_TorchVision_Interpret">here</a>.
 
-                <h4>Interpreting vision with Resnet:</h4>
+                <h4>Interpreting vision with ResNet:</h4>
                 Like the CIFAR based tutorial above, this tutorial demonstrates how to use Captum for interpreting vision focused models.
                 This tutorial begins with a pretrained resnet18 model and demonstrates how to use Intergrated Gradients along with Noise Tunnel.
                 The tutorial finishes with a demonstration of how to use GradientShap.
                 Find the tutorial <a href="Resnet_TorchVision_Interpret">here</a>.
+
+                <h4>Feature ablation on images:</h4>
+                This tutorial demonstrates feature ablation in Captum, applied on images as an example.
+                It leverages segmentation masks to define ablation groups over the input features.
+                We show how this kind of analysis helps understanding which parts of the input impacts a certain target in the model.
+                Find the tutorial <a href="Resnet_TorchVision_Ablation">here</a>.
 
                 <h4>Interpreting multimodal models:</h4>
                 To demonstrate interpreting multimodal models we have chosen to look at an open source Visual Question Answer (VQA) model.
